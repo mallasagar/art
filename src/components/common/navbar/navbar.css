@@ -7,3 +7,10 @@
   ;
 
 }
+
+
+.hamburger{
+    background-color: var(--darkpurple);
+    color: var(--babypink);
+    
+}
