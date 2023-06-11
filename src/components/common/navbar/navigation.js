@@ -8,7 +8,7 @@ import './navigation.css'
 function Mymob(props) {
   return (
 
-    <div className='navbar container-fluid d-flex d-sm-none d-md-none rounded-1 text-light text-center'>
+    <div className='navbar container-fluid d-flex d-sm-none d-md-none rounded-1  opacity-75 sticky-top position-sticky text-light text-center'>
     <div className=' row col-12   justify-content-end '>
           <div className='col col-sm-3'></div>
           <div className='col-12' onClick={()=>props.ismobile && props.closemobilemenu()}><NavLink to='/'>Home</NavLink></div>
@@ -26,7 +26,7 @@ function Mynav() {
   return (
   
     <>
-    <div className='navbar container-fluid d-none d-sm-flex d-md-flex opacity-75 sticky-top position-sticky rounded-1 text-light text-center py-3'>
+    <div className='navbar container-fluid d-none d-sm-flex d-md-flex opacity-75 sticky-top position-sticky rounded-1 text-light text-center py-2'>
           <div className=' row col-12    justify-content-end '>
                 <div className='col-3 col-md-5 col-sm-2'></div>
                 <div className='col'><NavLink to='/'>Home</NavLink></div>

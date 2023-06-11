@@ -13,13 +13,7 @@ function Myfooter() {
         role="button"
         ><i className="fab fa-facebook-f"></i></a>
 
-      <a
-        className="btn text-white btn-floating m-1"
-        style={{backgroundColor:"#55acee"}}
-        href="#!"
-        role="button"
-        ><i className="fab fa-twitter"></i
-      ></a>
+    
 
       <a
         className="btn text-white btn-floating m-1"
@@ -44,17 +38,11 @@ function Myfooter() {
         role="button"
         ><i className="fab fa-linkedin-in"></i
       ></a>
-      <a
-        className="btn text-white btn-floating m-1"
-        style={{backgroundColor: "#333333"}}
-        href="#!"
-        role="button"
-        ><i className="fab fa-github"></i
-      ></a>
+  
     </section>
   </div>
 
-  <div className="text-center p-3" style={{backgroundColor:"#C3C3D5", color:"#FAEEE9"}} >
+  <div className="text-center  p-3" style={{backgroundColor:"#C3C3D5", color:"#FAEEE9"}} >
     © 2020 Copyright:
     <a className="text-white" href="https://sagarmalla.com.np"> sagarmalla.com</a>
   </div>
