@@ -10,7 +10,21 @@ function Myheader() {
           <div className=' col-5 row  justify-content-start'>
             <h1>Beauty in you</h1>
           </div> 
-            <div className=' col-5  row justify-content-end align-items-center'>
+            <div className=' col-5  row justify-content-end d-none d-sm-flex d-m-flex align-items-center'>
+                    <a
+                      className="btn text-white btn-floating m-1"
+                      style={{backgroundColor: "#ac2bac"}}
+                      href="#!"
+                      role="button"
+                      ><i className="fab fa-instagram"></i
+                    ></a>
+                    <a
+                      className="btn text-white btn-floating m-1"
+                      style={{backgroundColor:" #000000"}}
+                      href="#!"
+                      role="button"
+                      ><i className="fab fa-tiktok"></i
+                    ></a>
                     <a
                       className="btn text-white btn-floating m-1"
                       style={{ backgroundColor : "#3b5998"}}
@@ -26,21 +40,7 @@ function Myheader() {
                       ><i className="fab fa-google"></i
                     ></a>
 
-                    <a
-                      className="btn text-white btn-floating m-1"
-                      style={{backgroundColor: "#ac2bac"}}
-                      href="#!"
-                      role="button"
-                      ><i className="fab fa-instagram"></i
-                    ></a>
 
-                    <a
-                      className="btn text-white btn-floating m-1"
-                      style={{backgroundColor:" #0082ca"}}
-                      href="#!"
-                      role="button"
-                      ><i className="fab fa-linkedin-in"></i
-                    ></a>
             </div>
   </div>
     </>
