@@ -8,6 +8,7 @@ import Mypackage from './pages/package/package.component';
 import Mycontact from './pages/contact/contact.component';
 import Myerror from './components/common/error';
 import Mylogin from './features/auth/login';
+import Myservice from './pages/service/service.component';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route index element ={<Myhome></Myhome>}></Route>
               <Route path="/gallery" element={<Mygallery/>}></Route>
               <Route path="/packages" element={<Mypackage/>}></Route>
+              <Route path="/services" element={<Myservice/>}></Route>
               <Route path="/about" element={<Myabout/>}></Route>
               <Route path="/contact" element={<Mycontact/>}></Route>
           </Route>

@@ -10,7 +10,20 @@
 
 
 .hamburger{
-    background-color: var(--darkpurple);
+    background-color: var(--babypink);
     color: var(--babypink);
     
+}
+
+.hamburger-container{
+  background-color: var(--lightpurple);
+  color: var(--babypink);
+}
+.hamburger-brandname{
+  font-family: 'Tangerine', cursive;
+  color:var(--babypink);
+  font-size: 24px;
+ font-weight: 900;
+
+
 }

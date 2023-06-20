@@ -43,8 +43,8 @@ function Myfooter() {
   </div>
 
   <div className="text-center  p-3" style={{backgroundColor:"#C3C3D5", color:"#FAEEE9"}} >
-    © 2020 Copyright:
-    <a className="text-white" href="https://sagarmalla.com.np"> sagarmalla.com</a>
+    © 2023 Copyright:
+    <a className="text-white" href="https://sagarmalla.com.np"> sagarmalla.com.np</a>
   </div>
 </footer>
   </div>

@@ -2,3 +2,18 @@ div a{
     text-decoration: none;
     color: var(--babypink);
 }
+.brandname{
+    
+        font-family: 'Tangerine', cursive;
+        color:white;
+        font-size: 24px;
+       font-weight: 500;
+      
+    
+    
+}
+
+div a:hover{
+    opacity: 1;
+    color:pink;
+}

@@ -5,12 +5,10 @@ import './header.component.css'
 function Myheader() {
   return (
     <>
-    <div className='container-fluid row position-relative align-items-center justify-content-center '>
+    <div className='container d-none d-md-flex justify-content-end col-12 py-1'>
 
-          <div className=' col-5 row  justify-content-start'>
-            <h1>Beauty in you</h1>
-          </div> 
-            <div className=' col-5  row justify-content-end d-none d-sm-flex d-m-flex align-items-center'>
+         
+            <div className=' col-4 d-flex justify-content-end   '>
                     <a
                       className="btn text-white btn-floating m-1"
                       style={{backgroundColor: "#ac2bac"}}
