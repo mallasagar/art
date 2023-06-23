@@ -25,9 +25,9 @@ function Mymob(props) {
 
 function Mynav() {
   return (
-  
+ 
     <>
-    <div className='navbar container-fluid d-none d-sm-flex d-md-flex opacity-75 sticky-top position-sticky rounded-1 text-light text-center py-2'>
+    <div className='navbar container-fluid d-none d-sm-flex d-md-flex opacity-75  rounded-1 text-light text-center py-1'>
           <div className=' row col-12    justify-content-end align-items-center '>
                 <div className='brandname col-none col-md-5 col-sm-none'><h1>Beauty in you</h1></div>
                 <div className='col'><NavLink to='/'>Home</NavLink></div>
