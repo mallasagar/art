@@ -1,6 +1,6 @@
-import Adminother from "./other";
+import Myadminother from "./other";
 
 
-export const Admin_other={
-    Adminother
+export const Adminother={
+    Myadminother
 }

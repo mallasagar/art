@@ -59,7 +59,7 @@ function Adminsidebar() {
    
     <hr class="sidebar-divider"/>
     <li class="nav-item">
-        <NavLink class="nav-link" to="/login">
+        <NavLink class="nav-link" to="/logout" >
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Logout</span></NavLink>
     </li>

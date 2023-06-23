@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Adminpackage() {
+function Myadminpackage() {
   return (
     <div>package</div>
   )
 }
 
-export default Adminpackage
+export default Myadminpackage

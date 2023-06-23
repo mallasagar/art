@@ -1,6 +1,6 @@
-import Adminreview from "./review";
+import Myadminreview from "./review";
 
 
-export const Admin_review ={
-    Adminreview
+export const Adminreview ={
+    Myadminreview
 }

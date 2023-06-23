@@ -1,6 +1,6 @@
-import Adminservice from "./service"
+import Myadminservice from "./service"
 
 
-export const Admin_service={
-       Adminservice
+export const Adminservice={
+       Myadminservice
 }

@@ -1,7 +1,7 @@
-import Adminpackage from "./package";
+import Myadminpackage from "./package";
 
 
 
-export const Admin_package={
-    Admin_package
+export const Adminpackage={
+    Myadminpackage
 }

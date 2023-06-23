@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Admingallery() {
+function Myadmingallery() {
   return (
     <div>gallery</div>
   )
 }
 
-export default Admingallery
+export default Myadmingallery

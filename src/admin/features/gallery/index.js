@@ -1,8 +1,8 @@
-import Admingallery from "./gallery"
+import Myadmingallery from "./gallery"
 
 
-export const Admin_gallery= {
-    Admingallery
+export const Admingallery= {
+    Myadmingallery
 }
 
 

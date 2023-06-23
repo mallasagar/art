@@ -1,8 +1,11 @@
 import React from 'react'
+import'./gallery.css';
 
 function Mygallery() {
   return (
-    <div>gallery.component</div>
+    <div className='container'>
+     
+    </div>
   )
 }
 

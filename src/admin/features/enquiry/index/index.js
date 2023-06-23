@@ -1,6 +1,6 @@
-import Adminenquiry from "../enquiry";
+import Myadminenquiry from "../enquiry";
 
 
-export const Admin_enquiry={
-    Adminenquiry
+export const Adminenquiry={
+    Myadminenquiry
 }

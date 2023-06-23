@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Adminservice() {
+function Myadminservice() {
   return (
     <div> thiis is an service</div>
   )
 }
 
-export default Adminservice
+export default Myadminservice

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import {  useNavigate } from 'react-router-dom'
 import'./login.css'
 
 
@@ -11,7 +12,7 @@ function Mylogin() {
     let [userpassword, setuserpassword]=useState()
     let [emailerror, setemailerror]= useState('')
     let [passworderror, setpassworderror ]=  useState('')
-
+    let navigate=useNavigate();
 
     useEffect(()=>{
         if(!useremail){
@@ -29,11 +30,37 @@ function Mylogin() {
         }
     },[userpassword])
 
+    useEffect(()=>{
+    //    let is_logged_in= Boolean(localStorage.getItem('is_logged_in'));
+    
+    const is_logged_in=JSON.parse(
+        localStorage.getItem("is_logged_in")
+      )
+     if(is_logged_in===true){
+         navigate('/admin')
+       }
+    })
 
     const Handlesubmit=(ev)=>{
         ev.preventDefault();
-        console.log("useremail:", useremail);
-        console.log("userpassword:", userpassword)
+        // console.log("useremail:", useremail);
+        // console.log("userpassword:", userpassword)
+
+        // const flag=false;
+        // console.log('value of flag',flag)
+        
+        // localStorage.setItem('is_logged_in',Boolean(flag));
+        // console.log("value of flag from localstorage", flag)
+        // sessionStorage.setItem('is_logged_in', false);
+
+        localStorage.setItem("is_logged_in",
+        JSON.stringify(
+            true
+        )
+        );
+
+        navigate('/admin')
+        
     }
 
 

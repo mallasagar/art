@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Adminother() {
+function Myadminother() {
   return (
     <div>other pages</div>
   )
 }
 
-export default Adminother
+export default Myadminother

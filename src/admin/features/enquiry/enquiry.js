@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Adminenquiry() {
+function Myadminenquiry() {
   return (
     <div>Enquiry</div>
   )
 }
 
-export default Adminenquiry
+export default Myadminenquiry
