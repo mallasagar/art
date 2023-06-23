@@ -1,44 +1,16 @@
 import React from 'react'
 import './header.component.css'
+import {FaInstagram, FaTiktok, FaFacebookF} from 'react-icons/fa'
+import {SiGmail} from 'react-icons/si'
 
 function Myheader() {
   return (
     <>
-    <div className='container d-none d-md-flex justify-content-end col-12 py-1'>
-
-         
-            <div className=' col-4 d-flex justify-content-end   '>
-                    <a
-                      className="btn text-white btn-floating m-1"
-                      style={{backgroundColor: "#ac2bac"}}
-                      href="#!"
-                      role="button"
-                      ><i className="fab fa-instagram"></i
-                    ></a>
-                    <a
-                      className="btn text-white btn-floating m-1"
-                      style={{backgroundColor:" #000000"}}
-                      href="#!"
-                      role="button"
-                      ><i className="fab fa-tiktok"></i
-                    ></a>
-                    <a
-                      className="btn text-white btn-floating m-1"
-                      style={{ backgroundColor : "#3b5998"}}
-                      href="#!"
-                      role="button"
-                      ><i className="fab fa-facebook-f"></i></a>
-
-                    <a
-                      className="btn text-white btn-floating m-1"
-                      style={{backgroundColor: "#dd4b39"}}
-                      href="#!"
-                      role="button"
-                      ><i className="fab fa-google"></i
-                    ></a>
-
-
-            </div>
+    <div className=' header-icons container col-10 d-none d-md-flex justify-content-end  py-2 '>
+        <div className=' mx-2 rounded-3 '><FaInstagram className=' text-dark  rounded-2' size={'21px'}></FaInstagram></div>
+        <div className=' mx-2 rounded-3 ' ><FaTiktok className='text-dark rounded-2' size={'21px'}></FaTiktok></div>
+        <div className=' mx-2 rounded-3 '><FaFacebookF className=' text-dark rounded-2 ' size={'21px'}/></div>
+        <div className=' mx-2 rounded-3 '><SiGmail className=' text-dark rounded-2' size={'21px'}/></div>
   </div>
     </>
   )

@@ -1,0 +1,9 @@
+.card-img:hover{
+    opacity: 0.9;
+}
+.card-title-henna{
+    font-family: 'Tangerine', cursive,'arial';
+    color:rgb(245, 102, 19);
+    font-size: 30px;
+   font-weight: 900;
+}
