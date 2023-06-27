@@ -99,7 +99,7 @@ function Myfooter() {
 
   <div className="copyright text-center p-4 " >
     © 2023 Copyright:
-    <a className="text-reset fw-bold" href="https://mdbootstrap.com/"> sagarmalla.com.np</a>
+    <a className="text-reset fw-bold" href="https://mdbootstrap.com/"> beautyinyou.com.np</a>
   </div>
 </footer>
   )

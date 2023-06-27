@@ -3,8 +3,9 @@ import'./gallery.css';
 
 function Mygallery() {
   return (
-    <div className='container'>
-     
+
+    <div>
+      this is gallery section
     </div>
   )
 }
