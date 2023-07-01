@@ -34,7 +34,7 @@ function Mynav() {
                 <div className='col'><NavLink to='/gallery'>Gallery</NavLink></div>
                 <div className='col'> <NavLink to='/services'>Services</NavLink></div>
                 <div className='col'> <NavLink to='/packages'>Packages</NavLink></div>
-                <div className='col'> <NavLink to='/about'>About</NavLink></div>
+                <div className='col'> <NavLink to='/about'>About us</NavLink></div>
                 <div className='col'> <NavLink to='/contact'>Contact</NavLink></div>
           </div>
    </div>

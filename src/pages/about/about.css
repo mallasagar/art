@@ -1,0 +1,29 @@
+.aboutuscard{
+    border-bottom: 5px solid rgb(248, 32, 32);
+}
+.ourstorytitle{
+    font-family: 'Tangerine', cursive;
+    color:rgb(252, 169, 75);
+    font-size: 42px;
+   font-weight: 600;
+}
+.cardbody{
+    font-size: 19px;
+}
+
+
+.ourstory{
+    width: 180px;
+  margin-top: 0;
+    border-bottom: 2px solid rgb(250, 250, 250);
+}
+
+@media screen and (max-width:576px) {
+    .ourstorytitle{
+        font-size:36px
+    }
+    .cardbody{
+        font-size: 14px;
+    }
+    
+}

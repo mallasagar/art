@@ -55,7 +55,7 @@ useEffect(()=>{
   else{
     setcontacterr('')
   }
-})
+},[contact])
 
 useEffect(()=>{
   if(!message){
@@ -63,7 +63,7 @@ useEffect(()=>{
   }else{
     setmessageerr('')
   }
-})
+},[message])
 
   const Handlesubmit=(ev)=>{
     ev.preventDefault();

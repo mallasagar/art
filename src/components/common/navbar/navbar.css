@@ -1,7 +1,7 @@
 .navbar{
   background-color: whitesmoke;
   font-family: 'Raleway', sans-serif;
-  border :1px solid  var(--babypink);
+  border-bottom :2px solid  var(--babypink);
 
  font-weight: bold
 
