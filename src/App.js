@@ -11,6 +11,7 @@ import Mylogin from './features/auth/login';
 import Myservice from './pages/service/service.component';
 import {Admin} from './admin/index';
 import { useEffect } from 'react';
+import Myregister from './features/auth/register';
 
 
 
@@ -59,6 +60,7 @@ function App() {
 
 
               <Route path='login' element={<Mylogin/>}></Route>
+              <Route path='register' element={<Myregister/>}></Route>
               
               
 

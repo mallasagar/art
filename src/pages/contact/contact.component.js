@@ -36,9 +36,10 @@ useEffect(()=>{
 useEffect(()=>{
   if(!email){
     setemailerr("Enter Email Address")
-  }else if(!email.includes('@') || !email.includes('.com')){
+  }else if(email.includes(' ')||(!email.includes('@') || !email.includes('.com'))){
     setemailerr("Invalid Email")
   }
+ 
   else{
     setemailerr('')
   }

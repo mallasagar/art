@@ -32,7 +32,7 @@ function Homehenna() {
         style={{maxwidth: "100px;",backgroundColor:"whitesmoke", border:"1px solid #FAEEE9"}}>
         <div className="row g-0">
             <div className="card-img col-md-6 ">
-            <img src={require("../../../assets/img1.jpeg")} style={{height:'300px', width:"auto",border:"2px solid  #FAEEE9"}}
+            <img src={require("../../../assets/img3.jpeg")} style={{height:'300px', width:"auto",border:"2px solid  #FAEEE9"}}
             className="img-fluid rounded mx-auto my-2 d-block" alt="..."/>
             </div>
             <div className="col-md-6">
