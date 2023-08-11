@@ -16,15 +16,22 @@ function Mylogin() {
 
     useEffect(()=>{
         if(!useremail){
-            setemailerror("Enter Email")
-        }else {
+            setemailerror("")
+        }else if( (!useremail.includes("@")||!useremail.includes(".com"))){
+            setemailerror("invalid email")
+
+        }
+        else {
             setemailerror("")
         }
     },[useremail])
 
     useEffect(()=>{
         if(!userpassword){
-            setpassworderror("Enter password")
+            setpassworderror("")
+        }else if(userpassword.length<8) {
+            setpassworderror("invalid password length!!")
+        
         }else {
             setpassworderror(" ")
         }
@@ -71,14 +78,20 @@ function Mylogin() {
             backgroundColor:"#735366"
         }}>
             <div className=" col-12 py-2 myloginemail  mt-5">
-                <span className='col-12 justify-content-center'>Enter User Email:</span>
-                <input  className='col-12  rounded-2' type='email'  name="useremail" onChange={(ev)=>{setuseremail(ev.target.value)}}></input>
-                <span  className='text-danger'>{emailerror}</span>
+                 <label className='col-12 justify-content-center' for='email'>Email: 
+                 <span className='text-danger'> * {emailerror}</span></label>
+                <input  className='col-12  rounded-2' type='email' id='email'
+                  name="useremail" 
+                 onChange={(ev)=>{setuseremail(ev.target.value)}} required></input>
+             
             </div>
             <div className="col-12 ">
-                <span className='col-12'>Enter pasword</span>
-                <input className='col-12  rounded-2' type='password'  name="userpassword" onChange={(ev)=>{setuserpassword(ev.target.value)}}></input>
-                <span className=' text-danger'>{passworderror}</span>
+            <label className='col-12 justify-content-center' for='password'>password:
+            <span className='text-danger'> * {passworderror}</span></label>
+                <input className='col-12  rounded-2'
+                 type='password'  name="userpassword" 
+                 onChange={(ev)=>{setuserpassword(ev.target.value)}}
+                 required></input>
             </div>
             <div className='row  col-12  justify-content-center '>
                 <button className='text-center my-4 col-3 col-sm-8 col-md-6 rounded-2  text-light ' style={{
