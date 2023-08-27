@@ -15,7 +15,7 @@ function Mynavbar() {
    <div className='hamburger-brandname col-4 d-sm-none d-md-none d-block  text-center'>Beauty in you</div>
 
     <SlMenu size={'20px'}  className='hamburger col-2 d-sm-none d-md-none d-block 
-     justify-content-end align-items-center text-dark bg-transparent       '
+     justify-content-end align-items-center text-dark bg-transparent'
   onClick={()=>{setopen(!open)}}></SlMenu>
   </div>
 

@@ -35,7 +35,7 @@ useEffect(()=>{
 
 useEffect(()=>{
   if(!email){
-    setemailerr("Enter Email Address")
+    setemailerr("")
   }else if(email.includes(' ')||(!email.includes('@') || !email.includes('.com'))){
     setemailerr("Invalid Email")
   }
@@ -47,11 +47,9 @@ useEffect(()=>{
 
 useEffect(()=>{
   if(!contact){
-    setcontacterr("Enter Mobile Number")
-  }else if(!(contact.length>9&&contact.length<11)){
+    setcontacterr("")
+  }else if(!(contact.length>9&&contact.length<11)||!contact.startsWith('98')){
     setcontacterr("Invalid contact")
-  }else if(!contact.startsWith('98')){
-    setcontacterr("Invalid number")
   }
   else{
     setcontacterr(' ')
@@ -79,7 +77,8 @@ useEffect(()=>{
 
   return (
       <>
-    <div className='container-fluid justify-content-center align-items-center text-center border border-info' >
+    <div className='container-fluid justify-content-center align-items-center text-center border border-info' 
+    style={{backgroundColor:"linear gradient(red , yellow)"}}>
 
       {/* <form onSubmit={Handlesubmit}> 
       <div className='container '>
@@ -108,22 +107,22 @@ useEffect(()=>{
           <div className='col-12 mb-3 mt-5'><h4>Message Us</h4></div>
           <form className=' text-start col-12 my-3 px-4 justify-content-center ' onSubmit={Handlesubmit}>
           
-            <label>Full name:   <span className='text-danger'>{nameerr}</span></label>
+            <label>Full name:   <span className='text-danger'>*{nameerr}</span></label>
             <input className='col-12 rounded-3 mb-2'  type='text' name='name' onChange={(ev)=>{
               setname(ev.target.value)
             }} required></input>
             
-            <label>Email address: <span className='text-danger'>{emailerr}</span></label>
+            <label>Email address: <span className='text-danger'>*{emailerr}</span></label>
             <input className='col-12 rounded-3 mb-2'  type='email' name='email' onChange={(ev)=>{
               setemail(ev.target.value)
             }}  required></input>
 
-            <label>Contact: <span className='text-danger'>{contacterr}</span></label>
+            <label>Contact:  <span className='text-danger'>*{contacterr}</span></label>
             <input className='col-12 rounded-3 mb-2' type='contact' name='contact' onChange={(ev)=>{
               setcontact(ev.target.value)
             }}  required></input>
 
-            <label>Your Enquiry: <span className='text-danger'>{messageerr}</span></label>
+            <label>Your Enquiry: <span className='text-danger'>*{messageerr}</span></label>
             <textarea className="form-control rounded-3 mb-2" aria-label="With textarea"  name='message' type="text" style={{height:"100px"}} 
             onChange={(ev)=>{
               setmessage(ev.target.value)
